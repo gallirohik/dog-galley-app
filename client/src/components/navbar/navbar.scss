@@ -21,7 +21,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
-  align-items: baseline;
+  padding: auto;
+  align-items: center;
 }
 
 button {
