@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
-import logo from "../../images/logo.jpg";
+import logo from "../../images/logo.png";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import userPic from "../../images/userPic.png";
 import { loggedOut } from "../../actions";
-const Navbar = () => {
+const Navbar = props => {
+  console.log("[navbar Props]", props);
   const auth = useSelector(data => data.auth);
   console.table(auth);
   const dispatch = useDispatch();
+  const [isHome, setHome] = useState(true);
+  const toggleButton = () => {
+    setHome(!isHome);
+  };
   return (
     <nav className="navbar">
       <span className="logo">
@@ -17,8 +22,12 @@ const Navbar = () => {
       <ul className="nav-items">
         {!auth.isLogin ? (
           <li className="nav-item">
-            <button>
-              <Link to="/login">Login / signup</Link>
+            <button onClick={toggleButton}>
+              {isHome ? (
+                <Link to="/login">Login / signup</Link>
+              ) : (
+                <Link to="/">Home</Link>
+              )}
             </button>
           </li>
         ) : (
