@@ -10,16 +10,16 @@ This is a Full-stack (MERN) dog gallery app
      - Lazy loading of components
      - SASS
 
- - ## Back-end ##
+ - ### Back-end ###
      - Node js
      - Express
      - Mongoose
       
- - ## Database ##
+ - ### Database ###
      - MongoDB (MongoDB Atlas Cloud)
      
    
- - ## Features ## 
+ - ### Features ###
      - Securing Dogs data by Authenticating User
      - Uploading Dog Details (Dog image and details)
      - Displaying Image gallery
