@@ -13,10 +13,11 @@ This is a Full-stack (MERN) dog gallery app
  - # Back-end #
      - Node js
      - Express
+     - Mongoose
       
  - # Database #
      - MongoDB (MongoDB Atlas Cloud)
-     - Mongoose
+     
    
  - # Features # 
      - Securing Dogs data by Authenticating User
