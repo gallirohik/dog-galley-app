@@ -2,7 +2,7 @@ Use
 ``` npm install ``` 
 to install all packages
 
-create .env file 
+create .env file for setting mongodb connection 
 
 format :
 
