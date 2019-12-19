@@ -1,4 +1,4 @@
-### dog-galley-app ###
+### Dog-galley-app ###
 This is a Full-stack (MERN) dog gallery app
 
 ## Technology stack and concepts ##
