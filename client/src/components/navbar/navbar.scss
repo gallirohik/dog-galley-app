@@ -1,0 +1,43 @@
+.navbar {
+  height: 14vh;
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.logo {
+  margin: 1rem;
+  width: 100px;
+  height: 100%;
+}
+.nav-items {
+  list-style: none;
+  margin-right: 2rem;
+  font-weight: 550;
+  font-size: 18pt;
+}
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  align-items: baseline;
+}
+
+button {
+  padding: 0.4rem;
+  font-size: 12pt;
+  border: 2px solid dodgerblue;
+  background: white;
+  color: dodgerblue;
+  a {
+    text-decoration: none;
+    color: dodgerblue;
+  }
+}
+.profile-pic-small {
+  max-height: 55px;
+  max-width: 55px;
+  width: 100%;
+  height: auto;
+}

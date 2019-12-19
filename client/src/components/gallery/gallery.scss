@@ -1,0 +1,13 @@
+.items-gallery {
+  padding: 2rem;
+  text-align: left;
+  .gallery-title {
+    font-weight: 500;
+    color: dodgerblue;
+  }
+  .items-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+}

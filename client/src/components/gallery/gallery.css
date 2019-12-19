@@ -1,0 +1,18 @@
+.items-gallery {
+  padding: 2rem;
+  text-align: left;
+}
+
+.items-gallery .gallery-title {
+  font-weight: 500;
+  color: dodgerblue;
+}
+
+.items-gallery .items-container {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px;
+  -ms-grid-columns: (minmax(220px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+/*# sourceMappingURL=gallery.css.map */

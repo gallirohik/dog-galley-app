@@ -1,0 +1,51 @@
+.auth-form-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15vh;
+}
+.auth-form-container {
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.4);
+  input,
+  button {
+    margin: 1.5rem;
+  }
+  input {
+    width: 70%;
+    padding: 0.2rem;
+    &::placeholder {
+      font-size: 14pt;
+    }
+    color: black;
+    font-size: 14pt;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid dodgerblue;
+    &:hover {
+      border-bottom: 3px solid dodgerblue;
+    }
+  }
+  button {
+    width: 50%;
+    background: rgb(2, 146, 79);
+    padding: 1em;
+    border: 0px;
+    cursor: pointer;
+    font-size: 12pt;
+    color: white;
+    &:hover {
+      box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.4);
+    }
+  }
+}
+
+.status-header {
+  height: 12vh;
+  background: darkturquoise;
+  padding: 0.2rem;
+}

@@ -1,0 +1,60 @@
+.navbar {
+  height: 14vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  margin: 1rem;
+  width: 100px;
+  height: 100%;
+}
+
+.nav-items {
+  list-style: none;
+  margin-right: 2rem;
+  font-weight: 550;
+  font-size: 18pt;
+}
+
+.profile {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+button {
+  padding: 0.4rem;
+  font-size: 12pt;
+  border: 2px solid dodgerblue;
+  background: white;
+  color: dodgerblue;
+}
+
+button a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+.profile-pic-small {
+  max-height: 55px;
+  max-width: 55px;
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=navbar.css.map */
