@@ -24,8 +24,6 @@ app.get("/", (req, res) => {
 });
 
 //connect to DB
-
-//DB_CONNECTION = mongodb+srv://rohik_g:m95oQ7rqnGRN5dyr@plats-app-rohxq.mongodb.net/test?retryWrites=true&w=majority
 mongoose.connect(
   process.env.DB_CONNECTION,
   { useUnifiedTopology: true, useNewUrlParser: true },
